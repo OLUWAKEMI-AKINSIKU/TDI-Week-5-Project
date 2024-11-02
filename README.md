@@ -1,1 +1,4 @@
-Initial content
+The primary objective is to automate the selection of the best baseline model for a machine learning project, which involves processing multiple versions of data. The project requires transitioning from a Jupyter notebook format to a production-ready structure, using organized folders and files to ensure compatibility for deployment on production or cloud services.
+
+The expected outcome is a structured repository containing a "report" directory that includes the performance metrics and outputs for the selected baseline model. A Bash script will automate the identification of the best model by processing a CSV file (baseline_model_results.csv), generating a report (baseline_model_report.md) with key model details like data version, model name, performance metrics (F1-score, accuracy), and a confusion matrix image. Only the report for the best model will remain in the main branch after merging from the feature branch
+
